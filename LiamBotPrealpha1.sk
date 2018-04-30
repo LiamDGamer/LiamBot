@@ -1,0 +1,23 @@
+command /liambotbrodcast <text>:
+    usage: /liambotbrodcast <text>
+    permission: liambot2.brodcast
+    aliases: lbbc
+    executable by:console and players
+    permission message: &bYou Don't have permission to execute that command.
+    trigger:
+        broadcast "&4&l[LiamBot] &8» &b&l&4%argument%"
+       
+        stop
+
+ 
+ 
+command /lbcc:
+    permission:LiamBot.Clearchat
+    trigger:
+        loop 100 times:
+            broadcast ""
+        wait 1 second
+        broadcast "&e[&4&lLiamBot] %player% has cleared the chat"
+        stop
+
+
