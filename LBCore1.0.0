@@ -6,7 +6,6 @@ command /liambotbrodcast <text>:
     permission message: &bYou Don't have permission to execute that command.
     trigger:
         broadcast "&4&l[LiamBot] &8» &b&l&4%argument%"
-       
         stop
 
  
@@ -19,5 +18,25 @@ command /lbcc:
         wait 1 second
         broadcast "&e[&4&lLiamBot] %player% has cleared the chat"
         stop
+
+
+command /lbdiscord
+usage /lbdiscord <player>
+   trigger:
+        send "Join Are discord here! https://discord.gg/ug8WsDZ"
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
